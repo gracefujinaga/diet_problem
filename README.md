@@ -2,6 +2,8 @@
 MSDS 460 Assignment 1
 Author: Grace Fujinaga
 
+This is an assignment for Northwestern Master's in Data Science class MSDS 460. 
+
 # Layout
 The write up for this assignment is in Diet_Problem_Write_Up.pdf. The pdf of nutritional content is in nutrition_labels.pdf. 
 
