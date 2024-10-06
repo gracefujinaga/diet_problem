@@ -1,0 +1,69 @@
+First Linear Programming Problem (can have 0 values for certain items):
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /opt/anaconda3/lib/python3.11/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/zv/4f9cw9vs6tjbvz5bh2k07w_40000gn/T/59fd829b79a340f0a7e6b52ac86b3fac-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/zv/4f9cw9vs6tjbvz5bh2k07w_40000gn/T/59fd829b79a340f0a7e6b52ac86b3fac-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 55 RHS
+At line 63 BOUNDS
+At line 64 ENDATA
+Problem MODEL has 7 rows, 6 columns and 36 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 7 (0) rows, 6 (0) columns and 36 (0) elements
+0  Obj 0 Primal inf 559.01907 (6)
+5  Obj 156.86385
+Optimal - objective value 156.86385
+Optimal objective 156.8638464 - 5 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.01
+
+Problem
+C = 29.294456
+CB = 36.761704
+O = 0.0
+S = 0.0
+SB = 6.4182349
+T = 23.192215
+Objective = 156.86384686025
+
+ 
+
+ ----------------------------------- 
+ 
+
+Second Linear Programming Problem (Part 4: No zero values for certain items):
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /opt/anaconda3/lib/python3.11/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/zv/4f9cw9vs6tjbvz5bh2k07w_40000gn/T/306f1d23cbbe4335a72f39a39facb5df-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/zv/4f9cw9vs6tjbvz5bh2k07w_40000gn/T/306f1d23cbbe4335a72f39a39facb5df-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 55 RHS
+At line 63 BOUNDS
+At line 70 ENDATA
+Problem MODEL has 7 rows, 6 columns and 36 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 6 (-1) rows, 6 (0) columns and 30 (-6) elements
+0  Obj 18.423364 Primal inf 437.85577 (5)
+5  Obj 158.02374
+Optimal - objective value 158.02374
+After Postsolve, objective 158.02374, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 158.0237367 - 5 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Problem Part 4
+C = 29.614594
+CB = 35.885671
+O = 1.0
+S = 1.0
+SB = 6.4151714
+T = 23.22339
+Objective Part 4 = 158.0237369365
