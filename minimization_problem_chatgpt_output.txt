@@ -1,8 +1,8 @@
 Optimal number of servings for each food item per week:
 Overnight Oats: 0.00
 Mango Chili Salad: 0.00
-Cottage Cheese: 35.95
-Tofu: 9.33
-Chicken Bowl: 38.04
-Salmon Burger: 6.35
-Total weekly cost: $144.79
+Cottage Cheese: 29.29
+Tofu: 23.19
+Chicken Bowl: 36.76
+Salmon Burger: 6.42
+Total weekly cost: $156.86
